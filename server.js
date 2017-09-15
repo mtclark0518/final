@@ -7,7 +7,7 @@ const PORT = process.env.port || 3333;
 
 // app.use(express.static(path.join(__dirname, 'assistant-director/build')));
 
-app.get('/', function(req, res) {
+app.get('/api', function(req, res) {
 	res.send('hi');
 });
 
